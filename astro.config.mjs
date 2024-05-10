@@ -16,6 +16,12 @@ export default defineConfig({
           autogenerate: { directory: "guides" },
         },
       ],
+      locales: {
+        root: {
+          label: "简体中文",
+          lang: "zh-CN",
+        },
+      },
     }),
   ],
 });
