@@ -22,6 +22,15 @@ export default defineConfig({
           lang: "zh-CN",
         },
       },
+      head: [
+        {
+          tag: "meta",
+          attrs: {
+            name: "google-site-verification",
+            content: "IgFogqxCfdPeTRPTgPfEPtUGjDs7ZlAlO-4hqeKFKW4",
+          },
+        },
+      ],
     }),
   ],
 });
